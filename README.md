@@ -1,1 +1,3 @@
+# Nutkhut.py
+
 This is a Python implementation of the netcat tool inspired by Black Hat Python, it is a utility for reading and writing data across network connections. The script uses the argparse module to parse command line arguments that determine the behavior of the script. The script creates an instance of the socket class from the socket module, which is used to create a socket that can be used to connect to a network. The script also uses the subprocess module to run commands and the threading module to handle multiple connections. The script can be used to listen for incoming connections, connect to a specified target and port, execute a command, upload a file, and start a command shell.
